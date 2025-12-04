@@ -1,34 +1,37 @@
-.bold { 
-    font-weight: 900;
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
 }
 
-.cur {
-    font-style: italic;
+ul {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.font {
-    font-family: Arial, sans-serif;
+ul[type="disc"] {
+  list-style-type: disc;
 }
 
-
-.color {
-    color: firebrick;
+ul[type="circle"] {
+  list-style-type: circle;
 }
 
-
-.bg {
-    background: url('/img/2249252.png') no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+ul[type="square"] {
+  list-style-type: square;
 }
 
-ol, ul {
-    margin-left: 20px;
+ul[compact] {
+  margin: 5px 0;
+  padding: 5px 15px;
+  font-size: 0.9em;
 }
 
 li {
-    margin-bottom: 8px;
+  margin-bottom: 5px;
 }
