@@ -1,5 +1,5 @@
 body.bg {
-  background-image: url('img/bag.jpg');
+  background-image: url('..img/bag.jpg');
   min-height: 100vh;
   margin: 0;
   padding: 20px;
